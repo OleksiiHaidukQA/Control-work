@@ -1,24 +1,19 @@
 package Controlwork;
 
 public class Reverse {
-        public void reverse() {
+    public void reverse() {
 
-            int num = 1234, reversed = 0;
+        String str= "reverse string", nstr="";
+        char ch;
 
-            System.out.println("Original Number: " + num);
+        System.out.print("Original word: ");
+        System.out.println("reverse string");
 
-
-            while(num != 0) {
-
-
-                int digit = num % 10;
-                reversed = reversed * 10 + digit;
-
-
-                num /= 10;
-            }
-
-            System.out.println("Reversed Number: " + reversed);
+        for (int i=0; i<str.length(); i++)
+        {
+            ch= str.charAt(i);
+            nstr= ch+nstr;
         }
+        System.out.println("Reversed word: "+ nstr);
     }
-
+}
