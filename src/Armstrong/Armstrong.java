@@ -1,3 +1,5 @@
+package Armstrong;
+
 public class Armstrong {
 
         public void armstrong()  {
@@ -14,8 +16,8 @@ public class Armstrong {
             }
 
             if(result == number)
-                System.out.println(number + " is an Armstrong number.");
+                System.out.println(number + " is an Armstrong.Armstrong number.");
             else
-                System.out.println(number + " is not an Armstrong number.");
+                System.out.println(number + " is not an Armstrong.Armstrong number.");
         }
     }

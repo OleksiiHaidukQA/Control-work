@@ -1,3 +1,5 @@
+package EvenNumber;
+
 import java.util.Scanner;
 
 public class EvenNumber {

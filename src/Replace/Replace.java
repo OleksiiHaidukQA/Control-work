@@ -1,3 +1,5 @@
+package Replace;
+
 public class Replace {
     public void replace() {
         String stringWithRandomChars = "Hello control work. Try to replace";
